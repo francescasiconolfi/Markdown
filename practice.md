@@ -68,7 +68,7 @@ x = 3
 ```
 **NOTE**: Preceding text with a tab will also create a block of code, like so:
 
-\       *code block*
+\    *code block*
 
 **Appearance**:
 
