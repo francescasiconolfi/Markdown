@@ -3,7 +3,7 @@
 ## Headings and Text
 A pound key (#) precedes a heading, with more pound keys indicating a smaller heading (up to 6 #s):
 
-\# H1 ... \##### H5
+\# H1 ... \###### H6
 
 **Appearance**: 
 
@@ -29,7 +29,9 @@ Use numbers with periods (#.) (do not have to be numerically ascending or descen
 Unordered:
 
 \1. List
+
 \8. Still
+
 \4. Yup
 
 **Appearance**:
@@ -42,7 +44,9 @@ Unordered:
 Use hyphens (-), astericks (\*), or  plus signs (+) (if indent, inner lists are created): 
 
 \- Item 1
+
 \+ Item 2
+
 \* Item 3 
 
 **Appearance**: 
@@ -120,7 +124,9 @@ To put text in block quote style, place a '>' in front:
 To create multiple lines within a block quote, ensure every line has a '>' as the first character:
 
 \> blockquote
+
 \>
+
 \> still a blockquote
 
 **Appearance**:
@@ -161,10 +167,13 @@ Place all headers between straight lines, then seperate the content with an equi
 Use <= 3 astericks, dashes, or underscores on a line by themselves:
 
 \*\*\*
+
 \-\-\-
+
 \_\_\_
 
 **Appearance**:
 
 *** 
 
+**NOTE**: prefer dashes since the other two sometimes cause bold and italics to be activated
