@@ -32,8 +32,6 @@ Lists can be created with either hyphens (-), plus signs (+), or numbers with pe
 - Back to this
 
 1. This is a numbered list
-       
-       1. This is an inner list
 2. Hey
 3. Four
 
@@ -68,6 +66,13 @@ x = 3
 ```python
 x = 3
 ```
+**NOTE**: Preceding text with a tab will also create a block of code, like so:
+
+\       *code block*
+
+**Appearance**:
+
+        code block
 
 ## Text Styling
 To put a word in *italics*, surround it with \*single\* astericks.
@@ -106,5 +111,3 @@ Place all headers between straight lines, then seperate the content with an equi
 | C1 | C2 | C3 |
 | C4 | C5 | C6 |
 
-
-        doe this cause backquotes?
