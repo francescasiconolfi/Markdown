@@ -26,12 +26,14 @@ Lists can be created with either hyphens (-), plus signs (+), or numbers with pe
 **Appearance**: 
 
 - Item 1
+
 + Item 2
   - Indented, inner list created by preceding the hyphen with two spaces
 - Back to this
 
 1. This is a numbered list
-        1. This is an inner list
+       
+       1. This is an inner list
 2. Hey
 3. Four
 
@@ -74,7 +76,7 @@ To put a word in **bold**, surround it with \*\*double\*\* astericks.
 
 To put a word in ***both*** **bold** and *italics*, surround it with \*\*\*three\*\*\* astericks.
 
-To ~~strikethrough~~ a word, surround it with \~single\~ or  \~\~double\~\~ tilde.
+To ~strikethrough~ a word, surround it with \~single\~ or  \~\~double\~\~ tilde.
 
 To put text in block quote style, place a '>' in front:
 
