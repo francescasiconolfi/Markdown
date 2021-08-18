@@ -121,7 +121,7 @@ To put text in block quote style, place a '>' in front:
 
 > blockquote
 
-To create multiple lines within a block quote, ensure every line has a '>' as the first character:
+To create multiple lines within a blockquote, ensure every line has a '>' as the first character:
 
 \> blockquote
 
@@ -135,7 +135,7 @@ To create multiple lines within a block quote, ensure every line has a '>' as th
 >
 > still a blockquote
 
-Blockquotes within blackquotes:
+Blockquotes within blockquotes:
 
 > just one
 >> inside once
