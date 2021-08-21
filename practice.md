@@ -146,12 +146,12 @@ Blockquotes within blockquotes:
 ---
 
 ## Creating Tables
-Place all headers between straight lines, then seperate the content with an equivalent amount of columns, with at least three hyphens in each, then below create the respective content rows/columns (do not put an empty line between each; stack):
+Place all headers between straight lines, then seperate the content with an equivalent amount of columns, with at least three hyphens in each, then below create the respective content rows/columns:
 
 \| H1 \| H2 \| H3 \|\
 \| --- \| --- \| --- \|\
 \| C1 \| C2 \| C3 \|\
-\| C4 \| C5 \| C6 \|\
+\| C4 \| C5 \| C6 \|
 
 **Appearance**: 
 
@@ -159,6 +159,8 @@ Place all headers between straight lines, then seperate the content with an equi
 | --- | --- | --- |
 | C1 | C2 | C3 |
 | C4 | C5 | C6 |
+
+---
 
 ## Horizontal Rules (Lines)
 Use <= 3 astericks, dashes, or underscores on a line by themselves:
@@ -174,3 +176,16 @@ Use <= 3 astericks, dashes, or underscores on a line by themselves:
 *** 
 
 **NOTE**: prefer dashes since the other two sometimes cause bold and italics to be activated
+
+---
+
+## Ending a Line
+To end a line without double carriage return afterwards, put '\' at end of line:
+
+Example line\\
+Now, this text is on the next line
+
+**Appearance:**
+
+Example line\
+Now, this text is on the next line
