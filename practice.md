@@ -180,7 +180,7 @@ Use <= 3 astericks, dashes, or underscores on a line by themselves:
 ---
 
 ## Ending a Line
-To end a line without double carriage return afterwards, put '\' at end of line.
+To end a line without double carriage return afterwards, put \ at end of line.
 
 **Appearance:**
 
