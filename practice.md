@@ -1,4 +1,4 @@
-# Markdown Practice
+# Markdown
 
 ## Headings and Text
 A pound key (#) precedes a heading, with more pound keys indicating a smaller heading (up to 6 #s):
@@ -180,10 +180,7 @@ Use <= 3 astericks, dashes, or underscores on a line by themselves:
 ---
 
 ## Ending a Line
-To end a line without double carriage return afterwards, put '\' at end of line:
-
-Example line\\
-Now, this text is on the next line
+To end a line without double carriage return afterwards, put '\' at end of line.
 
 **Appearance:**
 
