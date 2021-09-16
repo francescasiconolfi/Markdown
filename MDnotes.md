@@ -186,3 +186,9 @@ To end a line without double carriage return afterwards, put \ at end of line.
 
 Example line\
 Now, this text is on the next line
+
+## Superscripts and Subscripts
+
+Surround a superscript with "sup" like so: \<sup> superscript \</sup>
+
+Surround a subscript with "sub" like so: \<sub> subscript \</sub>
