@@ -197,6 +197,6 @@ Surround a subscript with "sub" like so: \<sub> subscript \</sub>
 
 Surround text with div tags.
 
-To center: \<div align="center">text\</div>
+To center: \<div align="center">*text*\</div>
 
-To right justify: \<div align="right">text\</div>
+To right justify: \<div align="right">*text*\</div>
