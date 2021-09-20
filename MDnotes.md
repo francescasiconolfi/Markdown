@@ -189,14 +189,14 @@ Now, this text is on the next line
 
 ## Superscripts and Subscripts
 
-Surround a superscript with "sup" like so: \<sup> superscript \</sup>
+Surround a superscript with "sup" like so: \<sup> *superscript* \</sup>
 
-Surround a subscript with "sub" like so: \<sub> subscript \</sub>
+Surround a subscript with "sub" like so: \<sub> *subscript* \</sub>
 
 ## Aligning Text
 
 Surround text with div tags.
 
-To center: \<div align="center">*text*\</div>
+To center: \<div align="center"> *text* \</div>
 
-To right justify: \<div align="right">*text*\</div>
+To right justify: \<div align="right"> *text* \</div>
