@@ -31,6 +31,19 @@ Formatting:\
 ### date
 Displays the current date and time.
 
+### df
+Displays the current amount of free space on disk drives.
+
+Important flags:\
+`h` for human readability.\
+`--total` to see the total usage/availability.
+
+### du
+Shows how much space each file takes up.
+
+Important flag:\
+`-h` for human readability.
+
 ### exit
 Ends the terminal session.
 
@@ -55,11 +68,42 @@ Important flags:\
 ### man
 Enters manual page for specified executable program.
 
+### passwd
+Sets or changes your password.
+
+Note: Superuser privileges are required if a user is specified.
+
 ### pwd
 Displays the name of the current working directory.
 
 ### script
 Records an entire shell session and stores it in the specified file (or in "typescript" if no file is specified).
+
+### source
+Forces bash to reread a specified file.
+
+### su
+Starts the shell as another user (superuser if no user is specified).
+
+Formatting:\
+`su - user`, where '-' starts a login shell, and *user* is any other user on the computer.
+`su -c cmd` allows the execution of just *cmd* (command) as superuser.
+
+### sudo
+Executes a command as another user (superuser if no user is specified).
+
+Important flag:\
+`-i` starts a new shell.
+
+### uptime
+Shows how long the system has been in use.
+
+Important flags:\
+`-p` (--pretty) shows the uptime in a pretty format.\
+`-s` (--since) shows since what time the system has been up.
+
+### uname
+Gives information about the system.
 
 ### whatis
 Displays name and one line description of keyword.
