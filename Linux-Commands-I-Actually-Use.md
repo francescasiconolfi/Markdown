@@ -18,8 +18,6 @@
 ### apropos
 Searches list of man pages for command matches based on search term.
 
----
-
 ### cal
 Displays the calender of the current month.
 
