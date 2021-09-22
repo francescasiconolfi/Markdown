@@ -107,5 +107,3 @@ Gives information about the system.
 
 ### whatis
 Displays name and one line description of keyword.
-
----
