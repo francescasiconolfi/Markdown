@@ -17,3 +17,18 @@
 <summary> File Editing </summary>
   
 </details>
+
+## Terminal Navigation
+
+### ls
+
+
+---
+
+## File Movement
+
+---
+
+## File Editing
+
+---
