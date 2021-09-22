@@ -15,6 +15,9 @@
 
 ## Terminal Navigation
 
+### apropos
+Searches list of man pages for command matches based on search term.
+
 ### cal
 Displays the calender of the current month.
 
@@ -33,6 +36,12 @@ Ends the terminal session.
 
 Note: Can also use <kbd>Ctrl-D</kbd>.
 
+### help
+Displays information about shell builtins.
+
+### id
+Displays information about your identity.
+
 ### ls
 Lists contents of current or specified directory or directories.
 
@@ -43,8 +52,16 @@ Important flags:\
 `-h` (--human-readable) formats it for humans\
 `-l` uses long listing format
 
+### man
+Enters manual page for specified executable program.
+
 ### pwd
 Displays the name of the current working directory.
 
+### script
+Records an entire shell session and stores it in the specified file (or in "typescript" if no file is specified).
+
+### whatis
+Displays name and one line description of keyword.
 
 ---
