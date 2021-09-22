@@ -23,7 +23,7 @@
 ### ls
 Lists contents of current or specified directory or directories.
 
-Important flags:
+Important flags:\
 `-a` (--all) shows hidden entries (starting with '.')\
 `-A` (--almost-all) shows almost all entries (not those starting with '.' and '..')\
 `-d` (--directory) shows directories\
