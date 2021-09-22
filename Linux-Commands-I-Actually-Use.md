@@ -1,7 +1,7 @@
 ## Table of Contents
 
-[File Editing]()\
-[File Movement]()\
+[File Editing](https://github.com/francescasiconolfi/Personal-Notes/blob/main/Linux-Commands-I-Actually-Use.md#file-editing)\
+[File Movement](https://github.com/francescasiconolfi/Personal-Notes/blob/main/Linux-Commands-I-Actually-Use.md#file-movement)\
 [Terminal Navigation](https://github.com/francescasiconolfi/Personal-Notes/blob/main/Linux-Commands-I-Actually-Use.md#terminal-navigation)
 
 
