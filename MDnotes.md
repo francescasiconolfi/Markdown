@@ -210,3 +210,7 @@ To right justify: \<div align="right"> *text* \</div>
 ## Keyboard Icons
 
 To encode a key in a keyboard icon: surround text with "kbd" like so: \<kbd> *key* \</kbd>
+
+**Appearance**:
+
+Use <kbd>Ctrl-C</kbd> to copy text on a PC.
