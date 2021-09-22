@@ -24,7 +24,7 @@ Displays the calender of the current month.
 ### cd
 Changes the current directory to the specified one.
 
-Formatting:\
+##### Formatting
 `cd -` changes working directory to previous one\
 `cd ~ username` changes working directory to working directory of *username*
 
