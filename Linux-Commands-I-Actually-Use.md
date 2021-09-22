@@ -1,8 +1,17 @@
 ## Table of Contents
 
-[Terminal Navigation]()\
+[File Editing]()\
 [File Movement]()\
-[File Editing]()
+[Terminal Navigation](https://github.com/francescasiconolfi/Personal-Notes/blob/main/Linux-Commands-I-Actually-Use.md#terminal-navigation)
+
+
+## File Editing
+
+---
+
+## File Movement
+
+---
 
 ## Terminal Navigation
 
@@ -32,13 +41,5 @@ Important flags:\
 ### pwd
 Displays the name of the current working directory.
 
-
----
-
-## File Movement
-
----
-
-## File Editing
 
 ---
