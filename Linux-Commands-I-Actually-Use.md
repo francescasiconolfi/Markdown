@@ -31,7 +31,7 @@ Displays the current date and time.
 ### exit
 Ends the terminal session.
 
-Note: Can also use `Ctrl-D`.
+Note: Can also use <kbd>Ctrl-D</kbd>.
 
 ### ls
 Lists contents of current or specified directory or directories.
