@@ -1,24 +1,23 @@
 ## Table of Contents
 
-<details>
-
-<summary> Terminal Navigation </summary>
-  
-</details>
-
-<details>
-
-<summary> File Movement </summary>
-  
-</details>
-
-<details>
-
-<summary> File Editing </summary>
-  
-</details>
+[Terminal Navigation]()
+[File Movement]()
+[File Editing]()
 
 ## Terminal Navigation
+
+### cal
+Displays the calender of the current month.
+
+### cd
+Changes the current directory to the specified one.
+
+Formatting:\
+`cd -` changes working directory to previous one\
+`cd ~ username` changes working directory to working directory of *username*
+
+### date
+Displays the current date and time.
 
 ### ls
 Lists contents of current or specified directory or directories.
@@ -30,6 +29,8 @@ Important flags:\
 `-h` (--human-readable) formats it for humans\
 `-l` uses long listing format
 
+### pwd
+Displays the name of the current working directory.
 
 
 ---
