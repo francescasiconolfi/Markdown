@@ -1,7 +1,7 @@
 ## Table of Contents
 
-[Terminal Navigation]()
-[File Movement]()
+[Terminal Navigation]()\
+[File Movement]()\
 [File Editing]()
 
 ## Terminal Navigation
