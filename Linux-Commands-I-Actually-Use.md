@@ -28,6 +28,11 @@ Formatting:\
 ### date
 Displays the current date and time.
 
+### exit
+Ends the terminal session.
+
+Note: Can also use `Ctrl-D`.
+
 ### ls
 Lists contents of current or specified directory or directories.
 
