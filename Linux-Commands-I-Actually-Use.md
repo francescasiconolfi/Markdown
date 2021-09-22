@@ -20,7 +20,7 @@
 
 ## Terminal Navigation
 
-### ls
+`ls`
 
 
 ---
