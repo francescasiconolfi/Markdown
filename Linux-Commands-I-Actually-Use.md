@@ -18,7 +18,7 @@ To use *stdin* directly from keyboard, do not specify files before the append/ov
 Changes mode (permissions) of a file/directory.
 
 **Formatting:**\
-*Octal Number Representation:* `chmod ugo file`
+*Octal Number Representation:* `chmod ugo file`\
 where u is the permission specification for the user, g is the permission specification for the group, and o is the permission specification for others/world
 
 ##### Table 1. Permission specifications
@@ -31,7 +31,7 @@ where u is the permission specification for the user, g is the permission specif
 
 where u, g, and o will each be a sum of any of those bits (i.e. a mode set to 744 will allow read, write, and execute access to user, and only read access to group and world)
 
-*Symbolic Representation:* `chmod sym file`
+*Symbolic Representation:* `chmod sym file`\
 where sym is formatted like so: owner operator permission
 
 
