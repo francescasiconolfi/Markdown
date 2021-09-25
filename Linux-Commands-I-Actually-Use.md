@@ -7,6 +7,52 @@
 
 ## File Editing
 
+### cat
+Reads file(s) and copies them to *stdout* (standard output).
+
+**Formatting:**\
+Can be used to append or overwrite *stdin* (standard input) or file(s) to another file using the append ('>>') or overwrite ('>') operators\
+To use *stdin* directly from keyboard, do not specify files before the append/overwrite operators\
+
+### chmod
+Changes mode (permissions) of a file/directory.
+
+**Formatting:**\
+Octal Number Representation: `chmod ugo file`
+where u is the permission specification for the user, g is the permission specification for the group, and o is the permission specification for others/world
+
+##### Table 1. Permission specifications
+| Permission | Symbol | Bits |
+| --- | --- | --- |
+| No access | - | 0 |
+| Read | r | 4 |
+| Write | w | 2 |
+| Execute | x | 1 |
+
+where u, g, and o will each be a sum of any of those bits (i.e. a mode set to 744 will allow read, write, and execute access to user, and only read access to group and world)
+
+
+### grep
+Finds text patterns in files and prints out lines containing the pattern.
+
+**Formatting:**\
+`grep pattern file` will filter through *file* for *pattern*.
+
+*Important flags:*\
+`-i` ignores case\
+`-v` prints out lines that do NOT match the pattern
+
+### tee
+Reads *stdin* and copies it to both *stdout* and file(s) specified after (often used with the pipeline operator in a filter).
+
+### uniq
+Accepts a sorted list of data and removes any duplicates.
+
+*Important flags:*\
+`-d` lists duplicates found
+
+Note: often used in conjunction with "sort".
+
 ---
 
 ## File Movement
