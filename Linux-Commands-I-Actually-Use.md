@@ -34,6 +34,21 @@ where u, g, and o will each be a sum of any of those bits (i.e. a mode set to 74
 *Symbolic Representation:* `chmod sym file`\
 where sym is formatted like so: owner operator permission
 
+owner options:
+- 'u' for "user" (owner)
+- 'g' for "group"
+- 'o' for "others" (world)
+- 'a' fpr all (default if no owner specified)
+
+operator options:
+- '+' to add permission(s)
+- '-' to remove permission(s)
+- '=' to add permission(s) specified and remove those not
+
+permission options:
+- 'r' for "read"
+- 'w' for "write"
+- 'x' for "execute"
 
 ### grep
 Finds text patterns in files and prints out lines containing the pattern.
