@@ -167,7 +167,7 @@ Displays information about shell builtins.
 ### id
 Displays information about your identity.
 
-## kill
+### kill
 Allows termination of processes (if no signal specified, default signal is: TERM (terminate)).
 
 **Formatting:**\
