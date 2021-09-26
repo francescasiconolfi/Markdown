@@ -65,6 +65,9 @@ Finds text patterns in files and prints out lines containing the pattern.
 ### tee
 Reads *stdin* and copies it to both *stdout* and file(s) specified after (often used with the pipeline operator in a filter).
 
+### touch
+Updates time of files (and creates new files if file does not already exist).
+
 ### uniq
 Accepts a sorted list of data and removes any duplicates.
 
