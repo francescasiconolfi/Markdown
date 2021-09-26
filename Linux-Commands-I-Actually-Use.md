@@ -50,7 +50,7 @@ permission options:
 - 'w' for "write"
 - 'x' for "execute"
 
-ex. chmod ug+x file wlll add execute permissions to user and group.
+ex. `chmod ug+x file` wlll add execute permissions to user and group for "file".
 
 ### grep
 Finds text patterns in files and prints out lines containing the pattern.
