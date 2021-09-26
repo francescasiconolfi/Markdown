@@ -52,6 +52,14 @@ permission options:
 
 ex. `chmod ug+x file` wlll add execute permissions to user and group for "file".
 
+### chown
+Changes owner and group owner of a file (superuser privileges required).
+
+**Formatting:**\
+`chown owner:group file`
+
+Note: Specifying just 'owner:' changes file owner to "owner" and changes group owner to the login group of owner.
+
 ### grep
 Finds text patterns in files and prints out lines containing the pattern.
 
@@ -79,6 +87,41 @@ Note: often used in conjunction with "sort".
 ---
 
 ## File Movement
+
+### cp
+Copies files and directories.
+
+### echo
+A shell builtin that prints its text arguments on *stdout* (any characters following "echo" will be displayed on *stdout*).
+
+*Important flag:*\
+`-e` will allow interpretation of escape sequences (can also place in $' ')
+
+Note: Using wildcard '\*' will print current working directory (due to shell expansion).
+
+### less
+Allows viewing of text files.
+
+### ln
+Creates hard and symbolic links.
+
+**Formatting:**\
+`ln file link` creates hard links (only applies to files)\
+`ln -s item link` creates symbolic links
+
+### mkdir
+Creates new directory.
+
+### mv
+Moves/renames files and directories.
+
+### rm
+Removes files and directories.
+
+### rmdir
+Removes empty directory.
+
+
 
 ---
 
@@ -123,6 +166,27 @@ Displays information about shell builtins.
 
 ### id
 Displays information about your identity.
+
+## kill
+Allows termination of processes (if no signal specified, default signal is: TERM (terminate)).
+
+**Formatting:**\
+`kill -signal PID/jobspec` 
+where signal can be specified by # or name, and may be prefixed by "SIG" 
+
+Notes: (1) Must be owner of the process or superuser to send it signals with "kill", (2) Can see complete list of signals with `-l`.
+
+##### Table 2. Common signals
+| Number | Signal | Meaning |
+| --- | --- | --- |
+| 1 | HUP | Hang up |
+| 2 | INT | Interrupt (Equivalent to Ctrl-C) |
+| 3 | QUIT | Quit |
+| 9 | KILL | Kill (Executed by kernel; gives no opportunity to save) |
+| 15 | TERM | Terminate |
+| 18 | CONT | Continue (Restores a process after STOP or TSTP)|
+| 19 | STOP | Stop (Pauses program without terminating) |
+| 20 | TSTP | Terminal Stop (Equivalent to Ctrl-Z)|
 
 ### ls
 Lists contents of current or specified directory or directories.
