@@ -5,7 +5,7 @@ Root Tag: <html>
  
 | Name | Tag | Futher Information |
 | --- | --- | --- |
-| Head | <head> | }
-| Body | <body> | |
-| Paragraph | <p> | |
+| Head | \<head> | |
+| Body | \<body> | |
+| Paragraph | \<p> | |
 | Header | <h#> | (h1 - h6)(biggest - smallest) |
