@@ -9,3 +9,5 @@ Root Tag: \<html>
 | Body | \<body> | Encloses everything in website, not in head |
 | Paragraph | \<p> | To write paragraphs |
 | Header | <h#> | (h1 - h6)(biggest - smallest) |
+
+# Singleton Tags
