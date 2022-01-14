@@ -1,5 +1,5 @@
 # Start/End Tags
-Root Tag: <html>
+Root Tag: \<html>
   
 ## Basic and Important Tags
  
